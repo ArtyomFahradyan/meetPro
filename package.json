@@ -1,0 +1,36 @@
+{
+  "name": "meet",
+  "private": true,
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "clean": "lerna clean --yes && lerna run clean && rimraf node_modules",
+    "build": "lerna run build",
+    "lint": "lerna run lint",
+    "start:frontend": "yarn workspace frontend start",
+    "start:backend": "yarn workspace backend start",
+    "start:shared": "yarn workspace @meet/shared start",
+    "start:ui": "yarn workspace @meet/ui start"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/apps/*",
+      "packages/libraries/*",
+      "packages/tools/*"
+    ],
+    "nohoist": [
+      "**/eslint-config",
+      "**/eslint-config/**"
+    ]
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^9.1.1",
+    "husky": "^4.2.5",
+    "lerna": "^3.22.0"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-push": "yarn lint"
+    }
+  }
+}

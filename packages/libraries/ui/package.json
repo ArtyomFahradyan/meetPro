@@ -1,0 +1,33 @@
+{
+  "name": "@meet/ui",
+  "version": "0.1.0",
+  "main": "build",
+  "private": true,
+  "description": "meet UI library",
+  "scripts": {
+    "start": "yarn clean && tsc -w",
+    "build": "yarn clean && tsc",
+    "clean": "rimraf build",
+    "postinstall": "yarn build",
+    "compile": "yarn tsc --noEmit",
+    "eslint": "eslint src --ext .ts,.tsx",
+    "stylelint": "stylelint \"src/**/*.(ts|tsx)\"",
+    "lint": "yarn compile && yarn eslint && yarn stylelint"
+  },
+  "devDependencies": {
+    "@meet/config": "*",
+    "@meet/eslint-config": "*"
+  },
+  "dependencies": {
+    "@meet/shared": "*",
+    "formik": "^2.1.5",
+    "@types/react": "^16.9.0",
+    "@types/styled-components": "^5.1.0",
+    "antd": "^4.6.2",
+    "framer-motion": "^1.11.1",
+    "react": "^16.13.1",
+    "react-i18next": "^11.5.0",
+    "styled-components": "^5.1.1",
+    "typescript": "~3.9.6"
+  }
+}

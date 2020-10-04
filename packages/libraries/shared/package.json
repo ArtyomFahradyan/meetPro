@@ -1,0 +1,29 @@
+{
+  "name": "@meet/shared",
+  "version": "0.1.0",
+  "main": "build",
+  "private": true,
+  "description": "meet shared library",
+  "scripts": {
+    "start": "yarn clean && tsc -w",
+    "build": "yarn clean && tsc",
+    "clean": "rimraf build",
+    "postinstall": "yarn build",
+    "compile": "yarn tsc --noEmit",
+    "eslint": "eslint src --ext .ts,.tsx",
+    "lint": "yarn compile && yarn eslint"
+  },
+  "devDependencies": {
+    "@meet/config": "*",
+    "@meet/eslint-config": "*"
+  },
+  "dependencies": {
+    "@types/validator": "^13.1.0",
+    "antd": "^4.6.2",
+    "msw": "^0.21.2",
+    "react": "^16.13.1",
+    "react-i18next": "^11.5.0",
+    "typescript": "~3.9.6",
+    "validator": "^13.1.1"
+  }
+}

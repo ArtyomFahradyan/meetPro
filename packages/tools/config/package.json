@@ -1,0 +1,13 @@
+{
+  "name": "@meet/config",
+  "version": "0.1.0",
+  "private": true,
+  "description": "meet base config",
+  "devDependencies": {
+    "prettier": "^2.0.5",
+    "stylelint": "^13.6.0",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-config-styled-components": "^0.1.1",
+    "stylelint-processor-styled-components": "^1.10.0"
+  }
+}

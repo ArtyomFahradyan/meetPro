@@ -1,0 +1,42 @@
+{
+  "form": {
+    "createAccount": "Create account",
+    "login": "Sign in",
+    "forgot": "Send reset link",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "password": "Password",
+    "confirm": "Confirm Password",
+    "agreement": "By creating an account you agree to the",
+    "termsOfService": "Terms of Service",
+    "privacyPolicy": "Privacy Policy",
+    "firstNamePrompt": "Please enter your first name",
+    "lastNamePrompt": "Please enter your last name",
+    "emailPrompt": "Please enter your email",
+    "passwordPrompt": "Please enter your password",
+    "confirmPrompt": "Please confirm your password",
+    "agreementPrompt": "Please accept the agreement",
+    "invalidEmail": "Please enter a valid email address",
+    "invalidPassword": [
+      "Your password must contain:\n",
+      "{{length}}",
+      "{{upper}}",
+      "{{lower}}",
+      "{{digit}}"
+    ],
+    "invalidPasswordLength": "- at least 8 characters\n",
+    "invalidPasswordUpper": "- one uppercase letter\n",
+    "invalidPasswordLower": "- one lowercase letter\n",
+    "invalidPasswordDigit": "- one number",
+    "invalidConfirm": "Passwords do not match"
+  },
+  "networkError": {
+    "badRequest": "Bad request!",
+    "badRequestDescription": "Something was wrong with that request. Please try again later! Feel free to contact us if the issue persists.",
+    "unauthorized": "Who are you?",
+    "unauthorizedDescription": "You need to be logged in to perform this request.",
+    "unknown": "Something's not right :(",
+    "unknownDescription": "We weren't able to fulfill your request. Please try again later! Feel free to contact us if the issue persists."
+  }
+}
