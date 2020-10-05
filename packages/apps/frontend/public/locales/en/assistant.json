@@ -1,0 +1,13 @@
+{
+  "welcomeTitle": "Get Started",
+  "dontWorry": "Dont worry, you can change this later in your workspace settings",
+  "defaultLanguage": "The default training language cannot be changed, but you can later add supported languages!",
+  "next": "Next",
+  "placeholderName": "Name your assistant",
+  "placeholderLanguage": "Choose the default training language",
+  "namePrompt": "Please enter your assistant name",
+  "defaultLanguagePrompt": "Please select a language",
+  "en": "English",
+  "ru": "Russian",
+  "fr": "French"
+}

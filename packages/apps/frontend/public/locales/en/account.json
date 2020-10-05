@@ -1,0 +1,16 @@
+{
+  "alreadyHaveAnAccount": "Already have an account?",
+  "dontHaveAnAccount": "Don't have an account yet?",
+  "signIn": "Sign In",
+  "signUp": "Sign Up",
+  "forgot": "Forgot password",
+  "yourAccount": "Your account",
+  "useThisAccount": "Go with this account",
+  "createNewAccount": "Create new account",
+  "backToSignIn": "Back to Sign In",
+  "createYourAccount": "Create your account",
+  "signInToYourAccount": "Sign in to your account",
+  "forgotPassword": "Forgot password?",
+  "signUpWithGoogle": "Sign up with Google",
+  "signInWithGoogle": "Sign in with Google"
+}

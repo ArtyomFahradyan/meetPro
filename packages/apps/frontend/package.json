@@ -20,6 +20,7 @@
     "@types/styled-components": "^5.1.0",
     "antd": "^4.6.2",
     "craco-antd": "^1.18.0",
+    "formik": "^2.1.5",
     "framer-motion": "^1.11.1",
     "history": "^5.0.0",
     "i18next": "^19.4.5",
@@ -30,6 +31,7 @@
     "react-i18next": "^11.5.0",
     "react-router-dom": "^6.0.0-beta.0",
     "react-scripts": "3.4.1",
+    "recoil": "^0.0.13",
     "styled-components": "^5.1.1",
     "typescript": "~3.9.6"
   },

@@ -1,8 +1,6 @@
 {
   "extends": "@meet/config/tsconfig.json",
-  "include": [
-    "shared/src/**/*"
-  ],
+  "include": ["src/**/*"],
   "compilerOptions": {
     "jsx": "react",
     "rootDir": "src",

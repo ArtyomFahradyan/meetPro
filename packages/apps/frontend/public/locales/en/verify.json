@@ -1,0 +1,9 @@
+{
+  "enterUrl": "Enter your website URL to verify",
+  "makeSure": "Make sure you have embedded the provided JS code into your website before continuing",
+  "urlPrompt": "Please enter your website's URL",
+  "invalidUrl": "Please enter a valid URL",
+  "placeholder": "www.hoory.com",
+  "verify": "Verify",
+  "skip": "Skip and go to workspace"
+}

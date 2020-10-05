@@ -1,0 +1,10 @@
+{
+  "copy": "Copy",
+  "verifySetup": "Verify Setup",
+  "skipThisStep": "Skip this step",
+  "hereIsTheEmbedCode": "Here is the embed code to enable Hoory on your website!",
+  "codeForVisitors": "JavaScript code for visitors",
+  "codeForLoggedInUsers": "JavaScript code for logged in users",
+  "copyAndPasteThisCode": "Copy and paste this code snippet before the </body> tag of every page you want Hoory to be on.",
+  "copied": "Copied to clipboard!"
+}
